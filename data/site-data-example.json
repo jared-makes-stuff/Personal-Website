@@ -1,0 +1,13 @@
+{
+  "id": "example-project",
+  "title": "Project Title",
+  "description": "Brief description of what this project does and its purpose.",
+  "technologies": [
+    "Technology 1",
+    "Technology 2",
+    "Technology 3"
+  ],
+  "imageUrl": "https://example.com/project-preview.png",
+  "githubUrl": "https://github.com/username/project-name",
+  "demoUrl": "https://example.com/demo"
+}
