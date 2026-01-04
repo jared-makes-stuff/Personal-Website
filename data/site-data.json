@@ -1,0 +1,450 @@
+{
+  "hero": {
+    "badge": "Computer Engineering @ NTU | Backend/Full-Stack Projects | Quant Finance Learner",
+    "title": "Hi, I'm Jared",
+    "subtitle": "Computer Engineering @ NTU • Singapore",
+    "description": "I build production-style web apps and backend services—clean APIs, databases, job queues, and automation—and I enjoy quantitative problem-solving (probability, statistics, and optimization). I’m currently applying for SWE internships and quant finance internships.",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQHemzV6ag5RSQ/profile-displayphoto-shrink_200_200/B56ZT2bDKdGoAs-/0/1739301073988?e=1769040000&v=beta&t=qo3IiIXE2y5A3FB4dIKiyz9tQvcV9tYuVjYzeBk0p9E",
+    "ctas": {
+      "primary": {
+        "label": "View My Work",
+        "target": "about"
+      },
+      "secondary": {
+        "label": "Contact Me",
+        "target": "contact"
+      }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "storyTitle": "My Story",
+    "storyParagraphs": [
+      "I'm pursuing a B.Eng. in Computer Engineering at Nanyang Technological University (NTU) (First Class Honours).",
+      "I like building reliable systems end-to-end—from backend services and databases to accessible UI—and I’m especially interested in roles where software meets data and markets."
+    ],
+    "workTitle": "What I Do",
+    "workParagraphs": [
+      "Software Engineering: backend and full-stack development with strong emphasis on code quality, validation, testing, and maintainability.",
+      "Quant/Finance: quantitative analysis of market data, financial modeling, and building tools that automate data collection, monitoring, and evaluation."
+    ]
+  },
+  "skills": {
+    "software": [
+      "Java",
+      "Python",
+      "C",
+      "C++",
+      "JavaScript",
+      "TypeScript",
+      "ARM Assembly",
+      "Visual Basic",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "HTML",
+      "CSS",
+      "PostgreSQL",
+      "Prisma",
+      "Redis",
+      "SQL",
+      "Tailwind CSS",
+      "AWS",
+      "Google Cloud",
+      "Alibaba Cloud",
+      "Git",
+      "DBeaver",
+      "Blue Prism (RPA)",
+      "REST APIs",
+      "Telegram Bot API",
+      "BeautifulSoup",
+      "Swagger",
+      "STM32",
+      "Embedded Systems"
+    ],
+    "other": [
+      "Tableau",
+      "Excel",
+      "Power Query",
+      "CATIA",
+      "AutoCAD",
+      "Inventor",
+      "Financial Modeling",
+      "Data Analysis",
+      "Market Analysis"
+    ]
+  },
+  "targets": {
+    "title": "Roles I'm Targeting",
+    "items": [
+      {
+        "id": "swe",
+        "title": "Software Engineering Internship",
+        "bullets": [
+          "Backend / full-stack: APIs, databases, caching, async jobs, automation",
+          "Comfortable across TypeScript/Node, SQL/Postgres, and modern React/Next.js",
+          "Strong focus on readability, testing, and performance basics"
+        ]
+      },
+      {
+        "id": "quant",
+        "title": "Quant Finance Internship",
+        "bullets": [
+          "Quant trading / research: data-driven experimentation and rigorous evaluation",
+          "Interested in time-series, optimization, and simulation/backtesting",
+          "Strong Python + solid low-level fundamentals (C/C++)"
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "title": "Highlights",
+    "items": [
+      {
+        "id": "automation",
+        "title": "Automation & Data",
+        "bullets": [
+          "RPA automation delivering 300+ hours/year time savings",
+          "Dashboarding and reporting using SQL + Tableau + Excel/Power Query"
+        ]
+      },
+      {
+        "id": "infra",
+        "title": "Systems & Cloud",
+        "bullets": [
+          "Hands-on with AWS, Google Cloud, and Alibaba Cloud for deploying personal projects",
+          "Comfortable with provisioning, monitoring, and performance/ROI evaluation"
+        ]
+      },
+      {
+        "id": "markets",
+        "title": "Markets Interest",
+        "bullets": [
+          "Quantitative analysis of market data and financial modeling",
+          "Built personal tools for real-time cryptocurrency tracking (interest-led)"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Here are some of my recent projects that showcase my skills and experience.",
+    "items": [
+      {
+        "id": "ntu-mods-by-bob",
+        "title": "NTU Mods By Bob",
+        "description": "A course planning and module management tool for NTU students, helping them organize their academic schedules and explore module options.",
+        "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Node.js",
+          "Express.js",
+          "PostgreSQL",
+          "Prisma",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Zustand",
+          "Vitest"
+        ],
+        "imageUrl": "https://github.com/jared-makes-stuff/NTU-Mods-By-Bob/blob/main/public/NTU%20Mods%20by%20Bob%20Preview.png?raw=true",
+        "githubUrl": "https://github.com/jared-makes-stuff/NTU-Mods-By-Bob"
+      },
+      {
+        "id": "ntu-vacancy-alert",
+        "title": "NTU Vacancy Alert",
+        "description": "An automated notification system that alerts students when course vacancies open up at NTU, helping them secure spots in their desired classes.",
+        "technologies": [
+          "Python",
+          "PostgreSQL",
+          "Telegram Bot API",
+          "python-telegram-bot",
+          "BeautifulSoup",
+          "Psycopg2"
+        ],
+        "imageUrl": "https://github.com/jared-makes-stuff/NTU-Vacancy-Alert/blob/main/public/NTU%20Vacancy%20Alert%20Preview.png?raw=true",
+        "githubUrl": "https://github.com/jared-makes-stuff/NTU-Vacancy-Alert",
+        "demoUrl": "https://t.me/NTUSTARSALERTbot"
+      },
+      {
+        "id": "ntu-public-apis",
+        "title": "NTU Public APIs",
+        "description": "A collection of public APIs for accessing NTU-related data and services, making it easier for developers to build applications around university information.",
+        "technologies": [
+          "Node.js",
+          "Express.js",
+          "PostgreSQL",
+          "Prisma",
+          "Redis",
+          "BullMQ",
+          "Cheerio",
+          "Axios",
+          "Swagger",
+          "Zod"
+        ],
+        "imageUrl": "https://github.com/jared-makes-stuff/NTU-Public-APIs/blob/main/public/NTU%20Public%20APIs%20Preview.png?raw=true",
+        "githubUrl": "https://github.com/jared-makes-stuff/NTU-Public-APIs"
+      },
+      {
+        "id": "lostinsg",
+        "title": "LostInSg",
+        "description": "A comprehensive carpark finding platform for Singapore that tracks real-time vacancy, parking rates, and available amenities across the island.",
+        "technologies": [
+          "JavaScript",
+          "Web Development",
+          "Database",
+          "REST API"
+        ],
+        "imageUrl": "https://github.com/jared-makes-stuff/LostInSg/blob/main/public/LostInSg%20Preview.png?raw=true",
+        "githubUrl": "https://github.com/jared-makes-stuff/LostInSg",
+        "demoUrl": "https://youtu.be/oB1NmuQJESQ"
+      },
+      {
+        "id": "bto-management-system",
+        "title": "BTO Management System",
+        "description": "A comprehensive management system for Singapore's Build-To-Order (BTO) flats, streamlining the application, tracking, and management process.",
+        "technologies": [
+          "Java",
+          "JavaDoc",
+          "OOP",
+          "MVC Pattern",
+          "Entity-Boundary-Controller"
+        ],
+        "imageUrl": "https://github.com/jared-makes-stuff/BTO-Management-System/blob/main/public/BTO%20Management%20System.png?raw=true",
+        "githubUrl": "https://github.com/jared-makes-stuff/BTO-Management-System"
+      },
+      {
+        "id": "pid-controlled-gyro",
+        "title": "PID Controlled Gyro",
+        "description": "A gyroscope stabilization system using PID control algorithms for precise motion control and balance in robotic applications.",
+        "technologies": [
+          "C",
+          "C++",
+          "STM32",
+          "Embedded Systems",
+          "HAL Drivers",
+          "MPU-6050",
+          "PWM",
+          "PID Control",
+          "Kalman Filter"
+        ],
+        "imageUrl": "https://github.com/jared-makes-stuff/PID-Controlled-Gyro/blob/main/public/PID_Contorolled_Gyro.jpg?raw=true",
+        "githubUrl": "https://github.com/jared-makes-stuff/PID-Controlled-Gyro"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "company": "E.SUN Commercial Bank, Singapore",
+        "role": "IT Intern",
+        "dates": "Jun 2025 – Jul 2025",
+        "logo": "/assets/logos/esun.png",
+        "bullets": [
+          "Provided end-user IT support and handled technical requests, improving response time and user satisfaction.",
+          "Built SQL queries and Tableau dashboards to extract, clean, and visualize customer data for decision-making.",
+          "Supported infrastructure upgrades and cybersecurity patching across office systems.",
+          "Coordinated bilingual communication with headquarters in Traditional Chinese for cross-border collaboration."
+        ]
+      },
+      {
+        "company": "Monetary Authority of Singapore (MAS), Singapore",
+        "role": "Technology Group Assistant",
+        "dates": "Jan 2024 – Jun 2024",
+        "logo": "/assets/logos/mas.png",
+        "bullets": [
+          "Implemented an RPA workflow that saved 300+ hours annually.",
+          "Produced CAPEX/OPEX financial reports using Power Query and Excel, streamlining recurring reporting.",
+          "Created meeting minutes and engineering documentation to improve traceability.",
+          "Collaborated with cross-functional teams to improve reporting transparency and automation standards."
+        ]
+      },
+      {
+        "company": "ST Engineering Aerospace, Singapore",
+        "role": "Engineering Assistant",
+        "dates": "Feb 2021 – Feb 2022",
+        "logo": "/assets/logos/st-engineering.png",
+        "bullets": [
+          "Supported technical drawing, design calculations, and field inspection for aircraft maintenance engineering.",
+          "Converted and managed 200+ 3D part models/drawings as part of a digitization initiative.",
+          "Assisted with documentation and regulatory compliance workflows."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "school": "Nanyang Technological University (NTU), Singapore",
+        "program": "B.Eng. Computer Engineering, Second Major in Data Analytics (In Progress)",
+        "dates": "Aug 2024 – Jun 2028",
+        "logo": "/assets/logos/ntu.png",
+        "highlights": [
+          "First Class Honors"
+        ]
+      },
+      {
+        "school": "Singapore Polytechnic, Singapore",
+        "program": "Diploma in Aeronautical Engineering",
+        "dates": "Apr 2019 – May 2022",
+        "logo": "/assets/logos/sp.png",
+        "highlights": [
+          "CGPA of 3.799 on a scale of 4.0",
+          "Awarded Diploma with merit",
+          "Dean's List Academic Year 20/21 awarded to top 10% of cohort",
+          "Dean's List Academic Year 19/20 awarded to top 10% of cohort",
+          "Awarded Book Prize in CATIA",
+          "Member of MAE Mentoring Program for Academic Year 19/20 - 20/21",
+          "Member of SP Outstanding Talent Programme"
+        ]
+      }
+    ]
+  },
+  "licenses": {
+    "title": "Licenses & Certifications",
+    "items": [
+      {
+        "title": "Building Cloud Computing Solutions at Scale",
+        "issuer": "Duke University",
+        "issued": "Jul 2025",
+        "credentialId": "HB393FSA9LNW",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/HB393FSA9LNW"
+      },
+      {
+        "title": "Cloud Computing Foundations",
+        "issuer": "Duke University",
+        "issued": "Jul 2025",
+        "credentialId": "Z33WRUBB9QZZ",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/Z33WRUBB9QZZ"
+      },
+      {
+        "title": "Cloud Data Engineering",
+        "issuer": "Duke University",
+        "issued": "Jul 2025",
+        "credentialId": "UF4ZKECEOGEU",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/UF4ZKECEOGEU"
+      },
+      {
+        "title": "Cloud Machine Learning Engineering and MLOps",
+        "issuer": "Duke University",
+        "issued": "Jul 2025",
+        "credentialId": "W05442KQP8KM",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/W05442KQP8KM"
+      },
+      {
+        "title": "Cloud Virtualization, Containers and APIs",
+        "issuer": "Duke University",
+        "issued": "Jul 2025",
+        "credentialId": "KLLM7TGMY7E8",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/KLLM7TGMY7E8"
+      },
+      {
+        "title": "Data Visualization in Excel",
+        "issuer": "Macquarie University",
+        "issued": "Jul 2025",
+        "credentialId": "DQ1S2F0NLWT5",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/DQ1S2F0NLWT5"
+      },
+      {
+        "title": "Excel Fundamentals for Data Analysis",
+        "issuer": "Macquarie University",
+        "issued": "Jul 2025",
+        "credentialId": "PTY7UX3ENPF3",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/PTY7UX3ENPF3"
+      },
+      {
+        "title": "Excel Power Tools for Data Analysis",
+        "issuer": "Macquarie University",
+        "issued": "Jul 2025",
+        "credentialId": "77FPWBCXZT7S",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/77FPWBCXZT7S"
+      },
+      {
+        "title": "Excel Skills for Data Analytics and Visualization Specialization",
+        "issuer": "Macquarie University",
+        "issued": "Jul 2025",
+        "credentialId": "9SY3KSD5L2AJ",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/9SY3KSD5L2AJ"
+      },
+      {
+        "title": "Financial Markets",
+        "issuer": "Yale University",
+        "issued": "Jul 2025",
+        "credentialId": "5LI3DLL0LLKA",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/5LI3DLL0LLKA"
+      },
+      {
+        "title": "Communicate and Relate Effectively at the Workplace-1",
+        "issuer": "Army Logistics Training Institute",
+        "issued": "Jul 2022"
+      },
+      {
+        "title": "Work in a Team-1",
+        "issuer": "Army Logistics Training Institute",
+        "issued": "Jul 2022"
+      },
+      {
+        "title": "Apply Emotional Competence to Manage Self and Team at the Workplace",
+        "issuer": "Singapore Polytechnic",
+        "issued": "Mar 2022"
+      },
+      {
+        "title": "Apply Emotional Competence to Manage Self at the Workplace",
+        "issuer": "Singapore Polytechnic",
+        "issued": "Aug 2019"
+      },
+      {
+        "title": "Develop Personal Effectiveness at Operations Level",
+        "issuer": "Singapore Polytechnic",
+        "issued": "Aug 2019"
+      }
+    ]
+  },
+  "interests": {
+    "title": "Interests and Hobbies",
+    "intro": "Beyond coding, here are some things that inspire and energize me.",
+    "items": [
+      {
+        "id": "financial-modeling",
+        "title": "Financial Modeling",
+        "description": "Building sophisticated financial models to analyze market trends, investment opportunities, and business valuations.",
+        "icon": "trending-up"
+      },
+      {
+        "id": "golf",
+        "title": "Golf",
+        "description": "Enjoying the challenge and tranquility of the game, constantly working to improve my swing and strategy.",
+        "icon": "flag"
+      },
+      {
+        "id": "bowling",
+        "title": "Bowling",
+        "description": "Perfecting technique and enjoying the competitive spirit of knocking down pins with friends.",
+        "icon": "circle-dot"
+      },
+      {
+        "id": "travel",
+        "title": "Travel",
+        "description": "Exploring new destinations, experiencing diverse cultures, and creating unforgettable memories around the world.",
+        "icon": "plane"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "intro": "I'm actively looking for Software Engineering and Quant Finance internships. If you think I could be a fit, I'd love to connect.",
+    "formTitle": "Send a Message",
+    "email": "jared.tan.shu.yi@gmail.com",
+    "phone": "+65 9695 2695",
+    "location": "Singapore"
+  },
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/jaredtanshuyi/",
+    "github": "https://github.com/jared-makes-stuff",
+    "kofi": "https://ko-fi.com/jaredmakesstuff",
+    "buymeacoffee": "https://buymeacoffee.com/jaredmakesstuff"
+  }
+}

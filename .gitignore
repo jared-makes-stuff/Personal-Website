@@ -27,6 +27,3 @@ coverage/
 
 # Local reference exports
 reference/
-
-# Example files
-data/site-data.json
