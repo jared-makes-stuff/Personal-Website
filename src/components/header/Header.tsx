@@ -23,7 +23,7 @@ export function Header({ isDark, toggleTheme, activeSection, onNavigate, socials
       <div className="px-6 h-16 flex items-center justify-between">
         <Navigation activeSection={activeSection} onNavigate={onNavigate} />
         
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 header-actions">
           <ContactLinks linkedin={socials.linkedin} github={socials.github} />
           {kofiUrl ? (
             <Button variant="outline" size="sm" asChild>
@@ -31,7 +31,7 @@ export function Header({ isDark, toggleTheme, activeSection, onNavigate, socials
                 href={kofiUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 header-cta"
               >
                 <Coffee className="w-4 h-4" />
                 Ko-fi
@@ -44,7 +44,7 @@ export function Header({ isDark, toggleTheme, activeSection, onNavigate, socials
                 href={buymeacoffeeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 header-cta"
               >
                 <Coffee className="w-4 h-4" />
                 Buy me a coffee
