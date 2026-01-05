@@ -54,7 +54,7 @@ export function Navigation({ activeSection, onNavigate }: NavigationProps) {
   }, [menuOpen]);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 900px)');
+    const mediaQuery = window.matchMedia('(max-width: 1100px)');
     const handleChange = (event: MediaQueryListEvent) => {
       if (!event.matches) {
         setMenuOpen(false);

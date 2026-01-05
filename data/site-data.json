@@ -8,7 +8,7 @@
     "ctas": {
       "primary": {
         "label": "View My Work",
-        "target": "about"
+        "target": "projects"
       },
       "secondary": {
         "label": "Contact Me",
