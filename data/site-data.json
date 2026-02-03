@@ -149,7 +149,8 @@
           "Vitest"
         ],
         "imageUrl": "https://github.com/jared-makes-stuff/NTU-Mods-By-Bob/blob/main/public/NTU%20Mods%20by%20Bob%20Preview.png?raw=true",
-        "githubUrl": "https://github.com/jared-makes-stuff/NTU-Mods-By-Bob"
+        "githubUrl": "https://github.com/jared-makes-stuff/NTU-Mods-By-Bob",
+        "demoUrl": "https://ntumods.jared-makes-stuff.com/"
       },
       {
         "id": "ntu-vacancy-alert",
